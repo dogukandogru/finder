@@ -4,7 +4,7 @@ module.exports = {
       name: 'finder',
       script: 'npm',
       args: 'start',
-      cwd: '/var/www/finder',
+      cwd: '/root/finder',
       instances: 1,
       autorestart: true,
       watch: false,

@@ -13,7 +13,7 @@ NC='\033[0m' # No Color
 set -e
 
 # Proje dizinine git
-PROJECT_DIR="/var/www/finder"
+PROJECT_DIR="/root/finder"
 echo -e "${YELLOW}📁 Proje dizinine gidiliyor: $PROJECT_DIR${NC}"
 cd $PROJECT_DIR
 
