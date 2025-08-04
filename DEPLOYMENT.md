@@ -28,8 +28,8 @@ sudo apt install git -y
 
 ### Proje Dizini Oluştur
 ```bash
-sudo mkdir -p /root
-cd /root
+sudo mkdir -p /var/www
+cd /var/www
 ```
 
 ### Projeyi Klonla
@@ -39,12 +39,12 @@ sudo git clone YOUR_REPOSITORY_URL finder
 cd finder
 
 # Veya dosyaları manuel olarak yükle
-sudo chown -R root:root /root/finder
+sudo chown -R $USER:$USER /var/www/finder
 ```
 
 ### Bağımlılıkları Yükle
 ```bash
-cd /root/finder
+cd /var/www/finder
 npm install
 ```
 
